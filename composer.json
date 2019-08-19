@@ -9,5 +9,8 @@
         "name": "getui",
         "homepage": "https://www.getui.com/cn"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap": [""]
+    }
 }
