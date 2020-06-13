@@ -449,7 +449,7 @@ Class IGeTui
         {
             return $rep['contentId'];
         }else{
-            throw new Exception("host:[".$this->host."]" + "获取contentId失败:" . $rep);
+            throw new Exception("host:[".$this->host."]" . "获取contentId失败:" . $rep);
         }
     }
 
@@ -505,7 +505,7 @@ Class IGeTui
         if($rep['result'] == 'ok'){
             return $rep['contentId'];
         }else{
-            throw new Exception("host:[".$this->host."]" + "获取contentId失败:".$rep);
+            throw new Exception("host:[".$this->host."]" . "获取contentId失败:".$rep);
         }
     }
 
