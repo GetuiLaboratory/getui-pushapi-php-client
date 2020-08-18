@@ -456,6 +456,7 @@ function IGtLinkTemplateDemo(){
     $template ->set_isClearable(true);//通知栏是否可清除
     $template ->set_url("http://www.igetui.com/");//打开连接地址
     //$template->set_duration(BEGINTIME,ENDTIME); //设置ANDROID客户端在此时间区间内展示消息
+	
     return $template;
 }
 
